@@ -1,0 +1,1060 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+    color: white;
+}
+
+.header{
+    display: inline-flex;
+}
+.logo{
+    display: inline-flex;
+}
+.limage{
+    margin-top: -16px;
+}
+.limage img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.ltext{
+    margin-left: -28px;
+    margin-top: 31px;
+}
+.ltext h1{
+    text-transform: capitalize;
+    font-size: 26px;
+    color: #ffa300;
+}
+.menubar{
+    margin-top: 13px;
+}
+.menubar nav{}
+.menubar nav ul{}
+.menubar nav ul li{
+    display: inline;
+}
+.sorejaw{
+    margin-left: 110px;
+}
+.menubar nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 27px;
+    margin-right: 0px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+.menubar nav ul li a:hover{
+    color: #ffa300;
+    transition: 0.5s;
+}
+.hbutton{
+    margin-top: 27px;
+    margin-left: 182px;
+}
+.hbutton button{
+    text-transform: capitalize;
+    padding: 10px;
+    width: 120px;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid orange;
+    color: white;
+    border-radius: 3px;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+    background: url(../images/0016.webp);
+    margin-top: -117px;
+    padding-top: 162px;
+}
+.content{
+    text-align: center;
+    width: 79%;
+    margin-left: 135px;
+}
+.content h1{
+    text-transform: capitalize;
+    font-size: 60px;
+    padding-top: 10px;
+    font-family: 'Satisfy', cursive;
+    color: orange;
+}
+.content h2{
+    text-transform: capitalize;
+    font-size: 60px;
+    padding-top: 10px;
+    font-family: 'Satisfy', cursive;
+    margin-top: -28px;
+    color: orange;
+}
+.aktu{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+    color: white !important;
+}
+.content p{
+    width: 62%;
+    margin-left: 179px;
+}
+.content button{
+    text-transform: capitalize;
+    padding: 10px;
+    width: 165px;
+    font-weight: 700;
+    background: #3e3eda;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: 13px;
+    margin-right: 7px;
+    font-size: 15px;
+}
+.content button:hover{
+    background: blue;
+    color: white;
+    transition: 0.5s;
+}
+.special{
+    background: #0f0f0f;
+    padding-top: 40px;
+    height: 500px;
+}
+.sheading{
+    text-align: center;
+}
+.sheading h1{
+    text-transform: capitalize;
+    font-size: 3vw;
+}
+.sheading p{
+    width: 36%;
+    margin-left: 396px;
+    font-size: 16px;
+    padding-top: 13px;
+    color: orange;
+}
+.item{
+    display: inline-flex;
+    width: 100%;
+}
+.itemone{
+    width: 350px;
+    background: #000000b5;
+    text-align: center;
+    margin-right: 50px;
+    box-shadow: 1px 1px 4px #cb4c71;
+}
+.soro{
+    margin-left: 43px;
+    margin-top: -55px;
+    height: 360px;
+}
+.tmisoro{
+    margin-top: -55px;
+    margin-left: 10px;
+    height: 360px;
+}
+.alada{
+    margin-top: 10px;
+    margin-left: 12px;
+    
+}
+.itemone img{
+    width: 100%;
+    height: 257px;
+}
+.itemone h1{
+    text-transform: capitalize;
+    font-size: 22px;
+    padding-top: 3px;
+    color: darkcyan;
+}
+.itemone p{
+    width: 92%;
+    margin-left: 14px;
+}
+.itemone a{
+
+}
+
+.itemone a h3{
+    text-transform: capitalize;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    text-decoration: underline;
+    color: #898dff;
+}
+.itemone a h3:hover{
+    color: white;
+    transition: 0.5s;
+}
+.offer{
+    background: black;
+    
+}
+.offerone{
+    width: 100%;
+    display: inline-flex;
+    padding-top: 50px;
+}
+.offerimage{
+    width: 50%;
+}
+.offerimage img{
+    width: 100%;
+    border: 5px solid white;
+    border-left: 5px solid black !important;
+    border-radius: 10px;
+}
+.offercontent{
+    width: 48%;
+    text-align: center;
+}
+.offercontent h1{
+    font-size: 4vw;
+    text-transform: capitalize;
+    padding-top: 14px;
+    font-family: serif;
+}
+.offercontent p{
+    width: 87%;
+    margin-left: 39px;
+    padding-top: 15px;
+}
+.offercontent button{
+    text-transform: capitalize;
+    padding: 10px;
+    width: 130px;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid white;
+    color: orange;
+    border-radius: 3px;
+    margin-right: 4px;
+    margin-top: 30px;
+}
+.offercontent button:hover{
+    border: 2px solid orange;
+    transition: 0.5s;
+}
+.fj{}
+.fj button{
+    width: 195px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.menucard{
+    width: 100%;
+    background: #0f0f0f;
+}
+.menuheading{}
+.menuheading h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 40px;
+}
+.menu{
+    padding-top: 37px;
+}
+.mone{
+    display: inline-flex;
+    width: 40%;
+    background: transparent;
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+.mimage{}
+.mimage img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+.aktuu{
+    margin-left: 121px;
+}
+.mcontent{
+    margin-left: 17px;
+}
+.mcontent h1{
+    padding-top: 33px;
+    text-transform: capitalize;
+}
+.tmio{
+    color: orange;
+    margin-left: 40px;
+}
+.mcontent p{
+    width: 86%;
+}
+.menu button{
+    text-transform: capitalize;
+    padding: 10px;
+    width: 160px;
+    font-weight: 700;
+    background: transparent;
+    border: 1.5px solid orange;
+    color: white;
+    border-radius: 3px;
+    margin-left: 552px;
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+.menu button:hover{
+    border: 2.5px solid rgb(255, 166, 0);
+}
+.review{
+    width: 100%;
+    text-align: center;
+}
+.reviewcontent{
+    background: #ffffff57;
+    width: 69%;
+    margin-left: 190px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.reviewcontent p{
+    width: 87%;
+    margin-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.client{
+    display: inline-flex;
+}
+.cimage{}
+.cimage img{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+}
+.cname{
+    margin-top: 9px;
+    margin-left: 8px;
+}
+.cname h3{
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+    font-size: 23px;
+}
+.owl-carousel{
+    border: none;
+    width: 90% !important;
+    margin-left: 62px;
+    background: url(../images/restaurant-plates-blue-dapple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+.contactus{
+    width: 100%;
+    background: #0f0f0f;
+    height: 362px;
+}
+.contactheading{
+    padding-bottom: 20px;
+}
+.contactheading h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 40px;
+}
+.formmap{
+    width: 98%;
+    display: inline-flex;
+    margin-left: 14px;
+}
+.contactform{
+    width: 50%;
+    background: url(../images/0016.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 15px;
+    height: 226px;
+}
+.contactform input{
+    width: 70%;
+    padding: 10px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.aladaa{
+    padding-bottom: 57px !important;
+}
+.contactform button{
+    text-transform: capitalize;
+    padding: 10px;
+    width: 120px;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid orange;
+    color: white;
+    border-radius: 3px;
+    margin-left: 237px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.contactform button:hover{}
+.contactmap{
+    width: 50%;
+}
+.contactmap iframe{
+    width: 100%;
+    height: 240px;
+}
+.reservation{}
+.rheading{}
+.rheading h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 40px;
+}
+.book{
+    width: 700px;
+    height: 375px;
+    background: black;
+    margin-bottom: 39px;
+    text-align: center;
+    margin-left: 274px;
+    margin-top: 23px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px orange;
+}
+
+
+.blogo{
+    display: inline-flex;
+    margin-top: -3px;
+    margin-left: -191px;
+}
+.bimage{
+    margin-top: -13px;
+    margin-left: 171px;
+}
+.bimage img{
+    width: 115px;
+}
+.bheading{
+    margin-top: 19px;
+    margin-left: -25px;
+}
+.bheading h1{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.book input{
+    width: 89%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.ektu{
+    margin-top: 1px;
+}
+.book select{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 135px;
+}
+
+.book select option{}
+.inputt{
+    margin-top: 12px;
+    padding-bottom: 60px !important;
+}
+.book button{
+    text-transform: capitalize;
+    padding: 10px;
+    width: 120px;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid orange;
+    color: white;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:425px){
+    h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+body{}
+.all{}
+.header{
+    display: inline-block;
+}
+.logo{
+    margin-left: 48px;
+}
+.limage{}
+.limage img{}
+.ltext{}
+.ltext h1{}
+.menubar{
+    display: none;
+}
+.menubar nav{}
+.menubar nav ul{}
+.menubar nav ul li{}
+.menubar nav ul li a{}
+.menubar nav ul li a:hover{}
+.hbutton{
+    display: none;
+}
+.hbutton button{}
+.banner{
+    width: 100% !important;
+    height: 226px;
+}
+.content{
+    margin-left: 26px;
+    margin-top: -53px;
+}
+.content h1{
+    font-size: 36px;
+}
+.content h2{
+    font-size: 28px;
+    margin-top: -13px; 
+}
+.aktu{
+   
+}
+.content p{
+    display: none;
+}
+.content button{
+    padding: 8px;
+    width: 149px;
+    margin-left: 40px;
+}
+.content button:hover{
+    
+}
+.special{
+   height: 1025px;
+}
+.sheading{
+   
+}
+.sheading h1{
+   
+}
+.sheading p{
+    display: none;
+}
+.item{
+    display: inline-block;
+}
+.itemone{
+      margin-left: 0px;
+    width: 100%;
+}
+.soro{
+    
+}
+.tmisoro{
+   margin-top: 10px;
+}
+.alada{
+ 
+    
+}
+.itemone img{
+    
+}
+.itemone h1{
+   
+}
+.itemone p{
+ 
+}
+.itemone a{
+
+}
+
+.itemone a h3{
+    
+}
+.itemone a h3:hover{
+  
+}
+.offer{
+ 
+    
+}
+.offerone{
+    display: inline-block;
+}
+.offerimage{
+    width: 100%;
+}
+.offerimage img{
+    width: 100%;
+    border: 2px solid white;
+    border-left: 2px solid white !important; 
+}
+.offercontent{
+    width: 100%;
+}
+.offercontent h1{
+
+}
+.offercontent p{
+    width: 100%;
+    margin-left: 0px;
+}
+.offercontent button{
+    
+}
+.offercontent button:hover{
+   
+}
+.fj{}
+.fj button{
+
+}
+.menucard{
+
+}
+.menuheading{}
+.menuheading h1{
+    font-size: 8vw;
+}
+.menu{
+ 
+}
+.mone{
+    display: inline-block;
+    width: 100%;
+}
+.mimage{}
+.mimage img{
+    margin-left: 79px;
+}
+.aktuu{
+   margin-left: 0px;
+}
+.mcontent{
+
+}
+.mcontent h1{
+
+}
+.tmio{
+    margin-left: 1px;
+}
+.mcontent p{
+   
+}
+.menu button{
+    margin-left: 1px;
+}
+.menu button:hover{
+ 
+}
+.review{
+    display: none;
+}
+.reviewcontent{
+
+}
+.reviewcontent p{
+
+}
+.client{
+    
+}
+.cimage{}
+.cimage img{
+
+}
+.cname{
+  
+}
+.cname h3{
+  
+}
+.owl-carousel{
+   display: none !important;
+}
+.contactus{
+
+}
+.contactheading{
+   
+}
+.contactheading h1{
+    font-size: 8vw;
+}
+.formmap{
+    width: 100%;
+    margin-left: 0px;
+    display: inline-block;
+}
+.contactform{
+   width: 100%;
+}
+.contactform input{
+    margin-left: 40px;
+}
+.aladaa{
+    
+}
+.contactform button{
+    margin-left: 90px;
+}
+.contactform button:hover{}
+.contactmap{
+    display: none;
+}
+.contactmap iframe{
+   
+}
+.reservation{}
+.rheading{}
+.rheading h1{
+  font-size: 8vw;
+}
+.book{
+    margin-left: 0px;
+    width: 100%;
+    height: 415px;
+}
+
+
+.blogo{
+   
+}
+.bimage{
+   
+}
+.bimage img{
+   
+}
+.bheading{
+   
+}
+.bheading h1{
+    color: orange;
+}
+.book input{
+    
+}
+.ektu{
+  
+}
+.book select{
+  
+}
+
+.book select option{}
+.inputt{
+ 
+}
+.book button{
+   
+}
+
+}
+
+
+@media screen and (min-width:426px) and (max-width:768px){
+    h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+body{}
+.all{}
+.header{
+    display: inline-block;
+}
+.logo{
+    margin-left: 281px;
+}
+.limage{}
+.limage img{}
+.ltext{}
+.ltext h1{}
+.menubar{
+    margin-top: -36px;
+}
+.menubar nav{}
+.menubar nav ul{}
+.menubar nav ul li{}
+.sorejaw{
+    margin-left: 43px;
+}
+.menubar nav ul li a{}
+.menubar nav ul li a:hover{}
+.hbutton{
+    display: none;
+}
+.hbutton button{}
+.banner{
+    margin-top: -153px;
+}
+.content{
+    margin-left: 90px;
+}
+.content h1{
+    
+}
+.content h2{
+   
+}
+.aktu{
+   
+}
+.content p{
+    margin-left: 106px;
+}
+.content button{
+    
+}
+.content button:hover{
+    
+}
+.special{
+    display: none;
+}
+.sheading{
+   
+}
+.sheading h1{
+   
+}
+.sheading p{
+   display: none;
+}
+.item{
+   
+}
+.itemone{
+     
+}
+.soro{
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 397px;
+}
+.tmisoro{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 397px;
+}
+.alada{
+ 
+    
+}
+.itemone img{
+    
+}
+.itemone h1{
+   
+}
+.itemone p{
+ 
+}
+.itemone a{
+
+}
+
+.itemone a h3{
+    
+}
+.itemone a h3:hover{
+  
+}
+.offer{
+ 
+    
+}
+.offerone{
+    display: inline-block;
+}
+.offerimage{
+    width: 99%;
+}
+.offerimage img{
+    
+}
+.offercontent{
+    width: 100%;
+}
+.offercontent h1{
+
+}
+.offercontent p{
+    
+}
+.offercontent button{
+    
+}
+.offercontent button:hover{
+   
+}
+.fj{}
+.fj button{
+
+}
+.menucard{
+
+}
+.menuheading{}
+.menuheading h1{
+    
+}
+.menu{
+ 
+}
+.mone{
+   
+}
+.mimage{}
+.mimage img{
+    
+}
+.aktuu{
+    margin-left: 34px;
+}
+.mcontent{
+
+}
+.mcontent h1{
+
+}
+.tmio{
+   margin-left: 0px;
+}
+.mcontent p{
+    width: 162px;
+}
+.menu button{
+    margin-left: 326px;
+}
+.menu button:hover{
+ 
+}
+.review{
+    
+}
+.reviewcontent{
+    margin-left: 104px;
+}
+.reviewcontent p{
+
+}
+.client{
+    
+}
+.cimage{}
+.cimage img{
+
+}
+.cname{
+  
+}
+.cname h3{
+  
+}
+.owl-carousel{
+   margin-left: 34px;
+}
+.contactus{
+
+}
+.contactheading{
+   
+}
+.contactheading h1{
+    
+}
+.formmap{
+    margin-left: 8px;
+}
+.contactform{
+   
+}
+.contactform input{
+    
+}
+.aladaa{
+    
+}
+.contactform button{
+   
+}
+.contactform button:hover{}
+.contactmap{
+    
+}
+.contactmap iframe{
+   
+}
+.reservation{}
+.rheading{}
+.rheading h1{
+  
+}
+.book{
+    margin-left: 26px;
+}
+
+
+.blogo{
+   
+}
+.bimage{
+   
+}
+.bimage img{
+   
+}
+.bheading{
+   
+}
+.bheading h1{
+    color: orange;
+}
+.book input{
+    
+}
+.ektu{
+  
+}
+.book select{
+  
+}
+
+.book select option{}
+.inputt{
+ 
+}
+.book button{
+   
+}
+}
